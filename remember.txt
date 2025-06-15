@@ -1,0 +1,40 @@
+
+http://localhost:8081/calculator/offers
+{
+  "amount": 250000.00,
+  "term": 24,
+  "firstName": "Александр",
+  "lastName": "Иванов",
+  "middleName": "Сергеевич",
+  "email": "alex.ivanov@example.com",
+  "birthdate": "1995-08-12",
+  "passportSeries": "1234",
+  "passportNumber": "567890"
+}
+http://localhost:8081/calculator/calc
+{
+  "amount": 250000,
+  "term": 24,
+  "firstName": "Иван",
+  "lastName": "Иванов",
+  "middleName": "Иванович",
+  "gender": "MALE",
+  "birthdate": "1990-01-01",
+  "passportSeries": "1234",
+  "passportNumber": "567890",
+  "passportIssueDate": "2010-01-01",
+  "passportIssueBranch": "УВД по г. Чебоксары",
+  "maritalStatus": "MARRIED",
+  "dependentAmount": 1,
+  "employment": {
+    "employmentStatus": "EMPLOYED",
+    "employerINN": "1234567890",
+    "salary": 80000,
+    "position": "WORKER",
+    "workExperienceTotal": 120,
+    "workExperienceCurrent": 24
+  },
+  "accountNumber": "22222222222222",
+  "isInsuranceEnabled": true,
+  "isSalaryClient": true
+}
